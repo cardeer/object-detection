@@ -6,7 +6,7 @@
         class="control-button"
         :style="{ backgroundColor: !cameraMode ? '#0083ff' : 'orange' }"
       >
-        Chante to {{ !cameraMode ? "Camera" : "File" }} Mode
+        Change to {{ !cameraMode ? "Camera" : "File" }} Mode
       </button>
 
       <FileInput
